@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro A, B, C
+    Escreva("infrome valor para A")
+    leia(A)
+    escreva("informe valor para B")
+    leia(B)
+    escreva("o valor de A é:", A, "é o valor da variavel B é: ", B)
+    C=A
+    A=B
+    B=C
+    escreva("O valor de A é: ", A, " e o valor da variavel B é:",B ")
+  }
+}
